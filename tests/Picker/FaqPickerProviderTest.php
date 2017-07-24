@@ -8,7 +8,7 @@
  * @license LGPL-3.0+
  */
 
-namespace Contao\CalendarBundle\Tests\Picker;
+namespace Contao\FaqBundle\Tests\Picker;
 
 use Contao\BackendUser;
 use Contao\CoreBundle\Picker\PickerConfig;
