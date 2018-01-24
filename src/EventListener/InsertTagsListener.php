@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /*
  * This file is part of Contao.
  *
@@ -17,12 +19,6 @@ use Contao\FaqModel;
 use Contao\PageModel;
 use Contao\StringUtil;
 
-/**
- * Handles FAQ insert tags.
- *
- * @author Andreas Schempp <https://github.com/aschempp>
- * @author Leo Feyer <https://github.com/leofeyer>
- */
 class InsertTagsListener
 {
     /**
@@ -33,7 +29,7 @@ class InsertTagsListener
     /**
      * @var array
      */
-    private $supportedTags = [
+    private static $supportedTags = [
         'faq',
         'faq_open',
         'faq_url',
@@ -41,8 +37,6 @@ class InsertTagsListener
     ];
 
     /**
-     * Constructor.
-     *
      * @param ContaoFrameworkInterface $framework
      */
     public function __construct(ContaoFrameworkInterface $framework)
@@ -54,15 +48,18 @@ class InsertTagsListener
      * Replaces FAQ insert tags.
      *
      * @param string $tag
+     * @param bool   $useCache
+     * @param mixed  $cacheValue
+     * @param array  $flags
      *
      * @return string|false
      */
-    public function onReplaceInsertTags($tag)
+    public function onReplaceInsertTags(string $tag, bool $useCache = true, $cacheValue = null, array $flags = [])
     {
         $elements = explode('::', $tag);
         $key = strtolower($elements[0]);
 
-        if (!\in_array($key, $this->supportedTags, true)) {
+        if (!\in_array($key, self::$supportedTags, true)) {
             return false;
         }
 
@@ -73,7 +70,7 @@ class InsertTagsListener
 
         $faq = $adapter->findByIdOrAlias($elements[1]);
 
-        if (null === $faq || false === ($url = $this->generateUrl($faq))) {
+        if (null === $faq || false === ($url = $this->generateUrl($faq, \in_array('absolute', $flags, true)))) {
             return '';
         }
 
@@ -84,10 +81,11 @@ class InsertTagsListener
      * Generates the URL for an FAQ.
      *
      * @param FaqModel $faq
+     * @param bool     $absolute
      *
      * @return string|false
      */
-    private function generateUrl(FaqModel $faq)
+    private function generateUrl(FaqModel $faq, bool $absolute)
     {
         /** @var PageModel $jumpTo */
         if (
@@ -99,8 +97,9 @@ class InsertTagsListener
 
         /** @var Config $config */
         $config = $this->framework->getAdapter(Config::class);
+        $params = ($config->get('useAutoItem') ? '/' : '/items/').($faq->alias ?: $faq->id);
 
-        return $jumpTo->getFrontendUrl(($config->get('useAutoItem') ? '/' : '/items/').($faq->alias ?: $faq->id));
+        return $absolute ? $jumpTo->getAbsoluteUrl($params) : $jumpTo->getFrontendUrl($params);
     }
 
     /**
@@ -112,7 +111,7 @@ class InsertTagsListener
      *
      * @return string|false
      */
-    private function generateReplacement(FaqModel $faq, $key, $url)
+    private function generateReplacement(FaqModel $faq, string $key, string $url)
     {
         switch ($key) {
             case 'faq':
