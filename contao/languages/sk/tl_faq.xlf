@@ -1,21 +1,21 @@
 <?xml version="1.0" ?><xliff version="1.1">
-  <file datatype="php" original="contao/languages/en/tl_faq.php" source-language="en" target-language="es">
+  <file datatype="php" original="contao/languages/en/tl_faq.php" source-language="en" target-language="sk">
     <body>
       <trans-unit id="tl_faq.question.0">
         <source>Question</source>
-        <target>Pregunta</target>
+        <target>Otázka</target>
       </trans-unit>
       <trans-unit id="tl_faq.question.1">
         <source>Please enter the question.</source>
-        <target>Por favor introduce la pregunta.</target>
+        <target>Prosím zadajte otázku.</target>
       </trans-unit>
       <trans-unit id="tl_faq.alias.0">
         <source>FAQ alias</source>
-        <target>Alias FAQ</target>
+        <target>Alias FAQ (často kladených otázok)</target>
       </trans-unit>
       <trans-unit id="tl_faq.alias.1">
         <source>The FAQ alias is a unique reference to the FAQ which can be called instead of its numeric ID.</source>
-        <target>Un alias FAQ es una referencia única a la pregunta, que puede ser utilizado como referencia en vez de la ID de la pregunta.</target>
+        <target>Alias FAQ je unikátny odkaz na otázku, ktorý môže byť vyvolaný namiesto ID otázky</target>
       </trans-unit>
       <trans-unit id="tl_faq.author.0">
         <source>Author</source>
@@ -23,151 +23,151 @@
       </trans-unit>
       <trans-unit id="tl_faq.author.1">
         <source>Here you can change the author of the FAQ.</source>
-        <target>Por favor selecciona un autor.</target>
+        <target>Prosím zvolte autora.</target>
       </trans-unit>
       <trans-unit id="tl_faq.answer.0">
         <source>Answer</source>
-        <target>Respuesta</target>
+        <target>Odpoveď</target>
       </trans-unit>
       <trans-unit id="tl_faq.answer.1">
         <source>Please enter the answer.</source>
-        <target>Por favor introduce la respuesta.</target>
+        <target>Prosím zadajte odpoveď.</target>
       </trans-unit>
       <trans-unit id="tl_faq.addImage.0">
         <source>Add an image</source>
-        <target>Añadir una imagen</target>
+        <target>Pridajte obrázok</target>
       </trans-unit>
       <trans-unit id="tl_faq.addImage.1">
         <source>Add an image to the FAQ.</source>
-        <target>Añadir una imagen a la respuesta.</target>
+        <target>Pridajte obrázok k odpovedi.</target>
       </trans-unit>
       <trans-unit id="tl_faq.pageTitle.0">
         <source>Meta title</source>
-        <target>Meta título</target>
+        <target>Meta title</target>
       </trans-unit>
       <trans-unit id="tl_faq.pageTitle.1">
         <source>Here you can add a custom meta title to overwrite the default page title.</source>
-        <target>Aquí puede agregar un meta título personalizado para sobrescribir el título de página predeterminado.</target>
+        <target>Tu môžete pridať vlastný meta title na prepísanie predvoleného názvu stránky.</target>
       </trans-unit>
       <trans-unit id="tl_faq.robots.0">
         <source>Robots tag</source>
-        <target>Etiqueta Robots</target>
+        <target>Tag pre vyhľadávacie roboty</target>
       </trans-unit>
       <trans-unit id="tl_faq.robots.1">
         <source>Here you can overwrite how search engines handle the FAQ.</source>
-        <target>Aquí puede sobrescribir cómo los motores de búsqueda manejan las preguntas frecuentes.</target>
+        <target>Tu môžete prepísať, ako vyhľadávače spracovávajú FAQ.</target>
       </trans-unit>
       <trans-unit id="tl_faq.description.0">
         <source>Meta description</source>
-        <target>Metadescripción</target>
+        <target>Meta description</target>
       </trans-unit>
       <trans-unit id="tl_faq.description.1">
         <source>Here you can add a custom meta description to overwrite the default page description.</source>
-        <target>Aquí puede agregar una meta descripción personalizada para sobrescribir la descripción de página predeterminada.</target>
+        <target>Tu môžete pridať vlastný meta popis na prepísanie predvoleného popisu stránky.</target>
       </trans-unit>
       <trans-unit id="tl_faq.addEnclosure.0">
         <source>Add enclosures</source>
-        <target>Añadir archivos adjuntos</target>
+        <target>Pridat prílohu</target>
       </trans-unit>
       <trans-unit id="tl_faq.addEnclosure.1">
         <source>Add one or more downloadable files to the FAQ.</source>
-        <target>Añadir un archivo a la respuesta.</target>
+        <target>Pridať k odpovedi jednu, alebo viac súborov na stiahnutie.</target>
       </trans-unit>
       <trans-unit id="tl_faq.enclosure.0">
         <source>Enclosures</source>
-        <target>Añadir RSS</target>
+        <target>Príloha</target>
       </trans-unit>
       <trans-unit id="tl_faq.enclosure.1">
         <source>Please choose the files you want to attach.</source>
-        <target>Seleccionar los archivos que se adjuntarán.</target>
+        <target>Zvoľte prosím súbory, ktoré chcete pripojiť</target>
       </trans-unit>
       <trans-unit id="tl_faq.published.0">
         <source>Publish the FAQ</source>
-        <target>Publicado</target>
+        <target>Publikované</target>
       </trans-unit>
       <trans-unit id="tl_faq.published.1">
         <source>Make the FAQ publicly visible on the website.</source>
-        <target>El FAQ no será visible en tu web hasta que este publicado.</target>
+        <target>FAQ (často kladené otázky) nebudú viditeľné, pokým nebudú publikované.</target>
       </trans-unit>
       <trans-unit id="tl_faq.title_legend">
         <source>Title and author</source>
-        <target>Título y autor</target>
+        <target>Názov a autor</target>
       </trans-unit>
       <trans-unit id="tl_faq.answer_legend">
         <source>Answer</source>
-        <target>Respuesta</target>
+        <target>Odpoveď</target>
       </trans-unit>
       <trans-unit id="tl_faq.meta_legend">
         <source>Metadata</source>
-        <target>Metadatos</target>
+        <target>Metadáta</target>
       </trans-unit>
       <trans-unit id="tl_faq.image_legend">
         <source>Image settings</source>
-        <target>Opciones de la imagen</target>
+        <target>Nastavenia obrazku</target>
       </trans-unit>
       <trans-unit id="tl_faq.enclosure_legend">
         <source>Enclosures</source>
-        <target>Añadir RSS</target>
+        <target>Príloha</target>
       </trans-unit>
       <trans-unit id="tl_faq.publish_legend">
         <source>Publish settings</source>
-        <target>Opciones de publicación</target>
+        <target>Nastavenia pre publikovanie</target>
       </trans-unit>
       <trans-unit id="tl_faq.new.0">
         <source>New</source>
-        <target>Nuevo</target>
+        <target>Nová</target>
       </trans-unit>
       <trans-unit id="tl_faq.new.1">
         <source>Create a new question</source>
-        <target>Crear una pregunta nueva.</target>
+        <target>Vytvoriť novú otázku</target>
       </trans-unit>
       <trans-unit id="tl_faq.show">
         <source>Show the details of question ID %s</source>
-        <target>Mostrar detalles de la pregunta con ID %s</target>
+        <target>Zobraziť detaily otázky ID %s</target>
       </trans-unit>
       <trans-unit id="tl_faq.edit">
         <source>Edit question ID %s</source>
-        <target>Editar pregunta con ID %s</target>
+        <target>Upraviť otázku ID %s</target>
       </trans-unit>
       <trans-unit id="tl_faq.copy">
         <source>Duplicate question ID %s</source>
-        <target>Duplicar pregunta con ID %s</target>
+        <target>Duplikovať otázku ID %s</target>
       </trans-unit>
       <trans-unit id="tl_faq.cut">
         <source>Move question ID %s</source>
-        <target>Mover pregunta con ID %s</target>
+        <target>Presunúť otázku ID %s</target>
       </trans-unit>
       <trans-unit id="tl_faq.delete">
         <source>Delete question ID %s</source>
-        <target>Eliminar pregunta con ID %s</target>
+        <target>Zmazať otázku ID %s</target>
       </trans-unit>
       <trans-unit id="tl_faq.toggle.0">
         <source>Publish/unpublish question</source>
-        <target>Publicar/retirar pregunta</target>
+        <target>Publikovať / nepublikovať otázku</target>
       </trans-unit>
       <trans-unit id="tl_faq.toggle.1">
         <source>Unpublish question ID %s</source>
-        <target>Anular la publicación de la pregunta ID %s</target>
+        <target>Zrušiť zverejnenie otázky ID %s</target>
       </trans-unit>
       <trans-unit id="tl_faq.toggle.2">
         <source>Publish question ID %s</source>
-        <target>Publicar la pregunta ID %s</target>
+        <target>Zverejniť otázku ID %s</target>
       </trans-unit>
       <trans-unit id="tl_faq.pasteafter.0">
         <source>Paste at the top</source>
-        <target>Pegar al inicio</target>
+        <target>Vložiť navrchu</target>
       </trans-unit>
       <trans-unit id="tl_faq.pasteafter.1">
         <source>Paste after question ID %s</source>
-        <target>Pegar después de la pregunta con ID %s</target>
+        <target>Vložiť za otázku ID %s</target>
       </trans-unit>
       <trans-unit id="tl_faq.pastenew.0">
         <source>Create a new question at the top</source>
-        <target>Crea una nueva pregunta en la parte superior</target>
+        <target>Vytvoriť novú otázku na vrchu</target>
       </trans-unit>
       <trans-unit id="tl_faq.pastenew.1">
         <source>Create a new question after question ID %s</source>
-        <target>Crear una nueva pregunta después de la pregunta con ID %s</target>
+        <target>Vytvoriť novú otázku za otázkou ID %s</target>
       </trans-unit>
     </body>
   </file>
