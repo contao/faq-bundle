@@ -1,193 +1,193 @@
 <?xml version="1.0" ?><xliff version="1.1">
-  <file datatype="php" original="contao/languages/en/tl_faq.php" source-language="en" target-language="tr">
+  <file datatype="php" original="contao/languages/en/tl_faq.php" source-language="en" target-language="it">
     <body>
       <trans-unit id="tl_faq.question.0">
         <source>Question</source>
-        <target>Soru</target>
+        <target>Domanda</target>
       </trans-unit>
       <trans-unit id="tl_faq.question.1">
         <source>Please enter the question.</source>
-        <target>Lütfen soruyu yazın.</target>
+        <target>Inserisci una domanda.</target>
       </trans-unit>
       <trans-unit id="tl_faq.alias.0">
         <source>FAQ alias</source>
-        <target>SSS kısaltması</target>
+        <target>Alias FAQ</target>
       </trans-unit>
       <trans-unit id="tl_faq.alias.1">
         <source>The FAQ alias is a unique reference to the FAQ which can be called instead of its numeric ID.</source>
-        <target>Sık sorulan soru kısaltması SSS sayısal kimliği olarak kullanılacak eşsiz bir belirteçtir.</target>
+        <target>Un alias di una FAQ è un riferimento alla domanda che potrai richiamare al posto dell&apos;ID della domanda.</target>
       </trans-unit>
       <trans-unit id="tl_faq.author.0">
         <source>Author</source>
-        <target>Yazar</target>
+        <target>Nome</target>
       </trans-unit>
       <trans-unit id="tl_faq.author.1">
         <source>Here you can change the author of the FAQ.</source>
-        <target>Buradan SSS ögesinin yazarını değiştirebilirsiniz.</target>
+        <target>Cambia l&apos;autore della FAQ</target>
       </trans-unit>
       <trans-unit id="tl_faq.answer.0">
         <source>Answer</source>
-        <target>Yanıt</target>
+        <target>Risposta</target>
       </trans-unit>
       <trans-unit id="tl_faq.answer.1">
         <source>Please enter the answer.</source>
-        <target>Lütfen yanıtı yazın.</target>
+        <target>Inserisci una risposta.</target>
       </trans-unit>
       <trans-unit id="tl_faq.addImage.0">
         <source>Add an image</source>
-        <target>Görsel ekle</target>
+        <target>Aggiungi un&apos;immagine</target>
       </trans-unit>
       <trans-unit id="tl_faq.addImage.1">
         <source>Add an image to the FAQ.</source>
-        <target>SSS için bir görsel ekleyin.</target>
+        <target>Aggiungi un immagine alla risposta.</target>
       </trans-unit>
       <trans-unit id="tl_faq.pageTitle.0">
         <source>Meta title</source>
-        <target>Üst veri başlığı</target>
+        <target>Meta titolo</target>
       </trans-unit>
       <trans-unit id="tl_faq.pageTitle.1">
         <source>Here you can add a custom meta title to overwrite the default page title.</source>
-        <target>Buraya varsayılan sayfa başlığının yerini alacak özel bir üst veri başlığı yazabilirsiniz.</target>
+        <target>Qui è possibile aggiungere un metatitolo personalizzato per sovrascrivere il titolo predefinito della pagina.</target>
       </trans-unit>
       <trans-unit id="tl_faq.robots.0">
         <source>Robots tag</source>
-        <target>Robotlar etiketi</target>
+        <target>tag robots</target>
       </trans-unit>
       <trans-unit id="tl_faq.robots.1">
         <source>Here you can overwrite how search engines handle the FAQ.</source>
-        <target>Buradan arama motorlarının SSS ögelerini nasıl işleyeceğini değiştirebilirsiniz.</target>
+        <target>Qui potete sovrascrivere come i motori di ricerca gestiscono le FAQ.</target>
       </trans-unit>
       <trans-unit id="tl_faq.description.0">
         <source>Meta description</source>
-        <target>Üst veri açıklaması</target>
+        <target>Meta descrizione</target>
       </trans-unit>
       <trans-unit id="tl_faq.description.1">
         <source>Here you can add a custom meta description to overwrite the default page description.</source>
-        <target>Buraya varsayılan sayfa açıklamasının yerini alacak özel bir üst veri açıklaması yazabilirsiniz.</target>
+        <target>Qui è possibile aggiungere una meta descrizione personalizzata per sovrascrivere la descrizione predefinita della pagina.</target>
       </trans-unit>
       <trans-unit id="tl_faq.addEnclosure.0">
         <source>Add enclosures</source>
-        <target>Dosyalar ekle</target>
+        <target>Aggiungi file</target>
       </trans-unit>
       <trans-unit id="tl_faq.addEnclosure.1">
         <source>Add one or more downloadable files to the FAQ.</source>
-        <target>SSS ögesine indirilebilecek bir ya da birkaç dosya ekleyin.</target>
+        <target>Aggiungi uno o più file scaricabile alla FAQ</target>
       </trans-unit>
       <trans-unit id="tl_faq.enclosure.0">
         <source>Enclosures</source>
-        <target>Dosyalar</target>
+        <target>Aggiungi file alla notizia</target>
       </trans-unit>
       <trans-unit id="tl_faq.enclosure.1">
         <source>Please choose the files you want to attach.</source>
-        <target>Eklemek istediğiniz dosyaları seçin</target>
+        <target>Seleziona i file che vuoi allegare.</target>
       </trans-unit>
       <trans-unit id="tl_faq.published.0">
         <source>Publish the FAQ</source>
-        <target>SSS ögesini yayınla</target>
+        <target>Pubblica FAQ</target>
       </trans-unit>
       <trans-unit id="tl_faq.published.1">
         <source>Make the FAQ publicly visible on the website.</source>
-        <target>Etkinleştirildiğinde, bu SSS ögesi sitede herkese açık olarak yayınlanır.</target>
+        <target>Rendi la FAQ visibile sul sito web.</target>
       </trans-unit>
       <trans-unit id="tl_faq.title_legend">
         <source>Title and author</source>
-        <target>Başlık ve yazar</target>
+        <target>Titolo ed autore</target>
       </trans-unit>
       <trans-unit id="tl_faq.answer_legend">
         <source>Answer</source>
-        <target>Yanıt</target>
+        <target>Risposta</target>
       </trans-unit>
       <trans-unit id="tl_faq.meta_legend">
         <source>Metadata</source>
-        <target>Üst veriler</target>
+        <target>Metadati</target>
       </trans-unit>
       <trans-unit id="tl_faq.image_legend">
         <source>Image settings</source>
-        <target>Görsel ayarları</target>
+        <target>Impostazioni immagine</target>
       </trans-unit>
       <trans-unit id="tl_faq.enclosure_legend">
         <source>Enclosures</source>
-        <target>Dosyalar</target>
+        <target>Aggiungi file alla notizia</target>
       </trans-unit>
       <trans-unit id="tl_faq.publish_legend">
         <source>Publish settings</source>
-        <target>Yayınlanma ayarları</target>
+        <target>Impostazione di pubblicazione</target>
       </trans-unit>
       <trans-unit id="tl_faq.new.1">
         <source>Create a new question</source>
-        <target>Yeni bir soru ekle</target>
+        <target>Crea una nuova domanda</target>
       </trans-unit>
       <trans-unit id="tl_faq.show.1">
         <source>Show the details of question ID %s</source>
-        <target>%s kimlikli sorunun ayrıntılarını görüntüle</target>
+        <target>Mostra dettagli domanda ID %s</target>
       </trans-unit>
       <trans-unit id="tl_faq.versions.1">
         <source>Show the versions of question ID %s</source>
-        <target>%s kimlikli sorunun sürümlerini görüntüle</target>
+        <target>Mostra le versioni dell&apos;ID della domanda %s</target>
       </trans-unit>
       <trans-unit id="tl_faq.edit.1">
         <source>Edit question ID %s</source>
-        <target>%s kimlikli soruyu düzenle</target>
+        <target>Modifica domanda ID %s</target>
       </trans-unit>
       <trans-unit id="tl_faq.copy.1">
         <source>Duplicate question ID %s</source>
-        <target>%s kimlikli soruyu kopyala</target>
+        <target>Duplica domanda ID %s</target>
       </trans-unit>
       <trans-unit id="tl_faq.cut.1">
         <source>Move question ID %s</source>
-        <target>%s kimlikli soruyu taşı</target>
+        <target>Sposta domanda ID %s</target>
       </trans-unit>
       <trans-unit id="tl_faq.delete.1">
         <source>Delete question ID %s</source>
-        <target>%s kimlikli soruyu sil</target>
+        <target>Elimina domanda ID %s</target>
       </trans-unit>
       <trans-unit id="tl_faq.toggle.0">
         <source>Publish/unpublish question</source>
-        <target>Soruyu yayınla/yayından kaldır</target>
+        <target>Pubblica/non pubblica domanda</target>
       </trans-unit>
       <trans-unit id="tl_faq.toggle.1">
         <source>Unpublish question ID %s</source>
-        <target>%s kimlikli soruyu yayından kaldır</target>
+        <target>Nascondi domanda ID %s</target>
       </trans-unit>
       <trans-unit id="tl_faq.toggle.2">
         <source>Publish question ID %s</source>
-        <target>%s kimlikli soruyu yayınla</target>
+        <target>Pubblica domanda ID %s</target>
       </trans-unit>
       <trans-unit id="tl_faq.toggle.3">
         <source>Unpublish</source>
-        <target>Yayından kaldır</target>
+        <target>Non pubblicato</target>
       </trans-unit>
       <trans-unit id="tl_faq.toggle.4">
         <source>Publish</source>
-        <target>Yayınla</target>
+        <target>Pubblicato</target>
       </trans-unit>
       <trans-unit id="tl_faq.pasteafter.0">
         <source>Paste at the top</source>
-        <target>Üste yapıştır</target>
+        <target>Incolla in cima</target>
       </trans-unit>
       <trans-unit id="tl_faq.pasteafter.1">
         <source>Paste after question ID %s</source>
-        <target>%s kimlikli sorudan sonra yapıştır</target>
+        <target>Incolla dopo la domanda ID %s</target>
       </trans-unit>
       <trans-unit id="tl_faq.pastenew.0">
         <source>Create a new question at the top</source>
-        <target>En üste yeni bir soru ekle</target>
+        <target>Crea una nuova domanda in cima</target>
       </trans-unit>
       <trans-unit id="tl_faq.pastenew.1">
         <source>Create a new question after question ID %s</source>
-        <target>%s kimlikli sorudan sonra yeni bir soru ekle</target>
+        <target>Crea una nuova domanda dopo la domanda ID %s</target>
       </trans-unit>
       <trans-unit id="tl_faq.pastenewtop.1">
         <source>Add a new question at the top</source>
-        <target>En üste yeni bir soru ekle</target>
+        <target>Aggiungi una nuova domanda all&apos;inizio</target>
       </trans-unit>
       <trans-unit id="tl_faq.pastenewafter.1">
         <source>Add a new question after question ID %s</source>
-        <target>%s kimlikli sorudan sonra yeni bir soru ekle</target>
+        <target>Aggiungi una nuova domanda dopo l&apos;ID della domanda %s</target>
       </trans-unit>
       <trans-unit id="tl_faq.tableLabel">
         <source>Question</source>
-        <target>Soru</target>
+        <target>Domanda</target>
       </trans-unit>
     </body>
   </file>
